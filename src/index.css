@@ -33,6 +33,7 @@ code {
   border-radius: 8px;
   font-size: 14px;
   max-width: 500px;
+  cursor: pointer;
 }
 .post-container{
   margin-bottom: 14px;

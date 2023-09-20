@@ -11,6 +11,9 @@
   justify-content: space-between;
   padding: 0 16px;
 }
+.company_link{
+  text-decoration: none;
+}
 
 .menu_icon {
     font-size: 30px;

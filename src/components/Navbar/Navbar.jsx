@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import { Link } from "react-router-dom";
 import {HiBars3} from 'react-icons/hi2'
 import { LiaTimesSolid } from 'react-icons/lia'
 import style from './Navbar.module.css'
@@ -11,7 +12,9 @@ const Navbar = ({handleOpenCreateModal}) => {
   return (
     <div className={style.navbar_container}>
       <header className={style.header_wrapper}>
-        <div className={style.company_name}>NEO<span className={style.header_title}>BLOG</span></div>
+        <Link to="/" className={style.company_link}>
+            <div className={style.company_name}>NEO<span className={style.header_title}>BLOG</span></div>
+        </Link>
         <HiBars3 className={style.menu_icon} onClick={handleOpenNavbar}></HiBars3>
         <ul className={style.nav_links}>
           <li>HOME</li>
