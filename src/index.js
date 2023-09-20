@@ -3,11 +3,32 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Home from './pages/Home';
+import PostDetails from './pages/PostDetails';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>
+  },
+  {
+    path: "/post/:id",
+    element: <PostDetails/>
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
+    <ToastContainer/>
   </React.StrictMode>
 );
 

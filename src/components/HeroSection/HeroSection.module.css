@@ -1,0 +1,26 @@
+.hero_img {
+    width: 100%;
+}
+.hero_container {
+    padding: 0 16px;
+    margin-bottom: 20px;
+}
+.hero_text {
+    color: #6b62ff;
+}
+.tagline {
+    margin-top: 12px;
+}
+@media screen and (min-width: 1000px) {
+    .hero_container {
+       display: flex;
+       flex-direction: row-reverse;
+    }
+    .image_container{
+        width: 68%;
+    }
+  .tagline{
+    font-size: 40px;
+    align-self: center;
+  }
+  }

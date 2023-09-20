@@ -1,0 +1,47 @@
+.modal_wrapper{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal_container {
+    width: 450px;
+    height: 150px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 25px 20px;
+    padding-top: 35px;
+    text-align: center;
+}
+.delete_text{
+    font-size: 22px;
+    margin-bottom: 46px;
+}
+.yes_btn {
+    margin-right: 12px;
+    background-color: #6b62ff;
+    color: #fff;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    cursor: pointer;
+
+}
+.no_btn {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 8px;
+    border: none;
+    border-radius: 6px;
+    width: 100px;
+    cursor: pointer;
+}
+.title{
+    color: #6b62ff;
+}

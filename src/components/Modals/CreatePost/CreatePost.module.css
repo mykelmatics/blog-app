@@ -1,0 +1,60 @@
+.modal_wrapper{
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal_container {
+    width: 450px;
+    height: 400px;
+    background: #fff;
+    border-radius: 4px;
+    padding: 25px 20px;
+    padding-top: 35px;
+    position: relative;
+}
+.title {
+    font-size: 24px;
+    margin-bottom: 3px;
+}
+.title_input {
+    width: 95%;
+    height: 25px;
+    outline: none;
+    padding-left: 6px;
+    border-radius: 6px;
+}
+.title_container{
+    margin-bottom: 8px;
+}
+.post_body {
+    border-radius: 6px;
+    outline: none;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+.submit_btn{
+    background-color: #6b62ff;
+    padding: 12px 0;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;  
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    width: 100%;
+    cursor: pointer;
+}
+.times_icon {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}

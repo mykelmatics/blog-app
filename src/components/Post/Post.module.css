@@ -1,0 +1,93 @@
+.post {
+    width: 100%;
+    border-radius: 5px;
+}
+.post_wrapper {
+    padding: 0 16px;
+}
+.post_img_wrapper{
+    margin-bottom: 30px;
+ 
+}
+.post_title {
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.post_type {
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.date {
+    color: #999;
+    font-size: 14px;
+    font-weight: 600;
+}
+.post_details_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.author_container {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+.author_pic_wrapper {
+    margin-right: 1rem;
+    width: 45px;
+    height: 45px;
+
+}
+.author_pic {
+    max-width: 100%;
+    border-radius: 50%;
+
+}
+.author_info > strong {
+    color: #000;
+    font-weight: 700;
+    display: block;
+    line-height: 1;
+}
+.author_info > span {
+    font-size: 13px;
+    color: #888;
+}
+.icon_wrapper{
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+.delete_container, .edit_container{
+    position: relative;
+    cursor: pointer;
+}
+
+.remove_delete {
+    display: none;
+}
+.remove_edit {
+    display: none;
+}
+.delete_container:hover .delete_tooltip , .edit_container:hover .edit_tooltip {
+    display: block;
+    position: absolute;
+    right: 0px;
+    white-space: nowrap;
+    font-size: 14px;
+    top: -50px;
+    padding: 5px;
+    background-color: #6b62ff;
+    color: #fff;
+    border-radius: 3px;
+}
+.edit_icon {
+    font-size: 18px;
+}
+.delete_icon {
+    font-size: 20px;
+}
